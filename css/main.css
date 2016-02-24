@@ -1,9 +1,82 @@
 html {
-  background-color: #ffe500;
+  background-color: #fff;
+  line-height: 1.5;
 }
+
+body {
+  margin: 0;
+}
+
+p {
+  max-width: 35em;
+}
+
 h1 {
   color: #b20953;
   font-family:'Sigmar One', cursive;
   text-align: center;
   font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  color: #b20953;
+  font-family:'Sigmar One', cursive;
+  text-align: left;;
+  font-size: 1.875rem;
+}
+
+li {
+  text-align: left;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+.info-boxes {
+  margin: 0px;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.info-boxes li{
+  display: inline-block;
+  padding: .5em .75em;
+  margin: 5px .5px 10px .5px;
+  background-color: #b2a212;
+  border-radius: 6px;
+  height: 1.10em;
+  text-align: center;
+}
+
+.info-boxes li:hover{
+  background-color: #b20953;
+}
+
+main {
+  margin: 10px;
+}
+
+header {
+  background-color: #ffe500;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  font-size: .75rem;
+  background-color: #ffe500;
+  background-size: 20;
+  height: 35px;
+  padding: .5em;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
 }
