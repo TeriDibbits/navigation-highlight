@@ -9,22 +9,24 @@ body {
 
 p {
   max-width: 35em;
+  color: #2f2d13;
+  font-family: "Georgia";
 }
 
 h1 {
-  color: #b20953;
-  font-family:'Sigmar One', cursive;
+  color: #cc1465;
+  font-family: "Sigmar One", cursive;
   text-align: center;
   font-size: 3rem;
   margin: 0;
 }
 
 h2 {
-  color: #b20953;
-  font-family:'Sigmar One', cursive;
-  text-align: left;;
+  color: #cc1465;
+  font-family: "Sigmar One", cursive;
+  text-align: left;
   font-size: 1.875rem;
-  text-decoration: uppercase;
+  text-transform: uppercase;
 }
 
 li {
@@ -36,13 +38,13 @@ li {
 }
 
 .info-boxes {
-  margin: 0px;
+  margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
 
-.info-boxes li{
+.info-boxes li {
   display: inline-block;
   padding: .5em .75em;
   margin: 5px .5px 10px .5px;
@@ -52,7 +54,7 @@ li {
   text-align: center;
 }
 
-.info-boxes li:hover{
+.info-boxes li:hover {
   background-color: #b20953;
 }
 
@@ -73,11 +75,11 @@ footer {
   text-align: center;
   font-size: .75rem;
   background-color: #ffe500;
-  background-size: 20;
+  background-size: 20rem;
   height: 35px;
   padding: .5em;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
